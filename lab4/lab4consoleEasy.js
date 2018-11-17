@@ -4,7 +4,7 @@ var x = 6,
 	r = 2,
 	h = 3;
 
-	console.log(x+=y-x-(x++)*z);
+	console.log(x+=y-(x++)*z);
 	console.log(z=--x-y*5);
 	console.log(y/=x+5%z);
 	console.log(z=(x++)+y*5);
@@ -12,5 +12,5 @@ var x = 6,
 
 	console.log("Arithmetic mean =  ", (x+y+z)/3);
 
-	console.log("V = ", Math.PI*2*Math.pow(r,2)*h);
+	console.log("V = ", Math.PI*Math.pow(r,2)*h);
 	console.log("S = ", 2*Math.PI*r*(r+h));
